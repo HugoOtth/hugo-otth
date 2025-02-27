@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { HashRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
@@ -10,14 +11,9 @@ function App() {
         <p>
           Check check 1 2
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          test 123
+        </p>
       </header>
     </div>
   );
