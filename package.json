@@ -1,14 +1,12 @@
 {
-  "name": "Hugo Otth",
-  "homepage": "https://www.hugo-otth.com",
+  "name": "hugo-otth",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next build && next export"
+    "lint": "next lint"
   },
   "dependencies": {
     "react": "^19.0.0",
