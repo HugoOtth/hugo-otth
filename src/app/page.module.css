@@ -22,16 +22,17 @@
     display: flex;
     flex-direction: column;
     place-items: center;
-
-    h1{
-        font-size: 120;
-        font-weight: bold;
-    }
-
-    h3{
-        font-size: 20;
-    }
 }
+
+.centerDisplay h1 {
+    font-size: 120;
+    font-weight: bold;
+} 
+
+.centerDisplay h3{
+    font-size: 20;
+}
+
 .centerName{
     color: red;
 }
