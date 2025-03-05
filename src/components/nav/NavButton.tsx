@@ -6,7 +6,6 @@ interface NavButtonProps {
   href: string;
   disabled?: boolean;
 }
-
 export default function NavButton({ label, href, disabled = false }: NavButtonProps) {
   if (disabled) {
     return (
