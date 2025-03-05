@@ -1,0 +1,24 @@
+.navButton {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 150px;
+    background-color: #ffffff00;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.8s ease;
+  }
+  
+  .navButton:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .navButton:disabled {
+    background-color: #ffffff;
+    cursor: not-allowed;
+  }
