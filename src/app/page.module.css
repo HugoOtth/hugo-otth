@@ -1,13 +1,9 @@
-.header{
-
-}
-
 .navBar{
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    gap: 20;
-    padding-top: 40;
+    gap: 20px;
+    padding-top: 40px;
 }
 
 .mainContainer{
@@ -18,19 +14,19 @@
 }
 
 .centerDisplay{
-    margin-top: -200;
+    margin-top: -200px;
     display: flex;
     flex-direction: column;
     place-items: center;
 }
 
 .centerDisplay h1 {
-    font-size: 120;
+    font-size: 7rem;
     font-weight: bold;
 } 
 
 .centerDisplay h3{
-    font-size: 20;
+    font-size: 2rem;
 }
 
 .centerName{
