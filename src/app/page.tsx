@@ -3,10 +3,6 @@ import styles from './page.module.css';
 
 export default function Home() {
 
-  function handleButtonClick()  {
-    var test = 123;
-  }
-
   return (
     <div className={styles.background}>
       <header>
